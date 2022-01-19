@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# React Github App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Neat features:
+
+- Component Driven Development with Atomic Design in mind
+- Valuable tests with @testing-library + msw (Mock Service Worker)
+- Scalable folder structure
 
 ## Available Scripts
 
@@ -49,7 +55,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ## Folder structure
 
 --/src
-----/components -> React components for this app
 ----/core -> Core code as auth and state management
-----/ pages -> The different pages that the project has
-----/ shared -> Shared code used across all app
+----/pages -> The different pages that the project has
+----/shared -> Shared code used across all app
+------/components -> React components for this app
