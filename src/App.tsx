@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import logo from "./logo.svg";
 import "./App.scss";
-import AppLayout from "./shared/template/Layout";
+import AppLayout from "./shared/templates/Layout";
 import AppRouter from "./core/routes/Router";
 
 function App() {

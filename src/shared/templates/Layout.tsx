@@ -15,7 +15,7 @@ const AppLayout: FunctionComponent<AppLayoutProps> = (
           <img src={props.logo} className="App-logo" alt="logo" />
           <h1>Github Search</h1>
         </header>
-        <section className="d-inline-flex flex-column">
+        <section>
           {props.children}
         </section>
       </div>

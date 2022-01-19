@@ -1,4 +1,5 @@
 import React, { FunctionComponent, useState } from "react";
+import { User } from "../../core/models/user";
 import AppSearch from "../../shared/components/AppSearch";
 
 const Home: FunctionComponent = () => {
@@ -21,14 +22,14 @@ const Home: FunctionComponent = () => {
   }
 
   return (
-    <>
+    <div className="d-inline-flex flex-column">
       <AppSearch
         disabled={disabled}
         handleChange={handleChange}
         handleClick={handleClick}
       />
       <pre className="white-font">{JSON.stringify(user)}</pre>
-    </>
+    </div>
   );
 };
 
